@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7890347417027BA5002B5AC5 /* Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 7890347317027BA5002B5AC5 /* Base.m */; };
-		789661041713CCEC0073816D /* Still.png in Resources */ = {isa = PBXBuildFile; fileRef = 789660F71713CCEC0073816D /* Still.png */; };
-		789661051713CCEC0073816D /* Text.png in Resources */ = {isa = PBXBuildFile; fileRef = 789660F81713CCEC0073816D /* Text.png */; };
 		78992A9F171659B000BE28B6 /* orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78992A9E171659AF00BE28B6 /* orange.jpg */; };
 		78A1F9B81703DFA400F1EA18 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A1F9B71703DFA400F1EA18 /* ImageView.m */; };
 		78A47BA016FEC7050010F636 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A47B9F16FEC7050010F636 /* UIKit.framework */; };
@@ -22,12 +20,12 @@
 		78A47BB416FEC7050010F636 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A47BB316FEC7050010F636 /* Default@2x.png */; };
 		78A47BB616FEC7050010F636 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A47BB516FEC7050010F636 /* Default-568h@2x.png */; };
 		78A47BBE16FEC71F0010F636 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A47BBD16FEC71F0010F636 /* View.m */; };
+		78A720521716DC6F0038366F /* Still.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A720511716DC6F0038366F /* Still.png */; };
+		78A720541716DC7A0038366F /* Text.png in Resources */ = {isa = PBXBuildFile; fileRef = 78A720531716DC7A0038366F /* Text.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7890347317027BA5002B5AC5 /* Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base.m; sourceTree = "<group>"; };
-		789660F71713CCEC0073816D /* Still.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Still.png; path = ../../../Downloads/Orson/Still.png; sourceTree = "<group>"; };
-		789660F81713CCEC0073816D /* Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Text.png; path = ../../../Downloads/Orson/Text.png; sourceTree = "<group>"; };
 		78992A9E171659AF00BE28B6 /* orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orange.jpg; sourceTree = "<group>"; };
 		78A1F9B51703DE7900F1EA18 /* Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
 		78A1F9B61703DFA400F1EA18 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
@@ -47,6 +45,8 @@
 		78A47BB516FEC7050010F636 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		78A47BBC16FEC71F0010F636 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 		78A47BBD16FEC71F0010F636 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		78A720511716DC6F0038366F /* Still.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Still.png; sourceTree = "<group>"; };
+		78A720531716DC7A0038366F /* Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,8 @@
 		78A47BA616FEC7050010F636 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				789660F81713CCEC0073816D /* Text.png */,
-				789660F71713CCEC0073816D /* Still.png */,
+				78A720531716DC7A0038366F /* Text.png */,
+				78A720511716DC6F0038366F /* Still.png */,
 				78A47BA716FEC7050010F636 /* ColorMixer-Info.plist */,
 				78A47BA816FEC7050010F636 /* InfoPlist.strings */,
 				78A47BAB16FEC7050010F636 /* main.m */,
@@ -179,9 +179,9 @@
 				78A47BB216FEC7050010F636 /* Default.png in Resources */,
 				78A47BB416FEC7050010F636 /* Default@2x.png in Resources */,
 				78A47BB616FEC7050010F636 /* Default-568h@2x.png in Resources */,
-				789661041713CCEC0073816D /* Still.png in Resources */,
-				789661051713CCEC0073816D /* Text.png in Resources */,
 				78992A9F171659B000BE28B6 /* orange.jpg in Resources */,
+				78A720521716DC6F0038366F /* Still.png in Resources */,
+				78A720541716DC7A0038366F /* Text.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
